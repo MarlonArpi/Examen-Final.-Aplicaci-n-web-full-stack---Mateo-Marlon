@@ -1,8 +1,12 @@
+
 🎬 CINE BROTHERS - Catálogo de Directores y Películas
+
 Cine Brothers es una plataforma administrativa para la gestión de contenido cinematográfico. Permite administrar un catálogo completo de directores y sus filmografías con una interfaz moderna basada en una estética de "Cine Premium" (Dorado, Negro y Neón).
 
 Características Principales
+
 👤 Gestión de Directores
+
 CRUD Completo: Creación, lectura, actualización y eliminación de directores.
 
 Perfiles Detallados: Vista individual con biografía y datos de nacionalidad.
@@ -12,6 +16,7 @@ Galería de Imágenes: Soporte para carga de fotografías de perfil mediante mul
 Filmografía Dinámica: Visualización automática de las películas asociadas a cada director con efectos de iluminación Cian Neón.
 
 🎥 Gestión de Películas
+
 Catálogo General: Listado de todas las obras registradas.
 
 Vinculación: Relación directa entre películas y sus respectivos directores.
@@ -28,7 +33,9 @@ Iluminación cian neón en elementos interactivos.
 Bordes dorados para resaltar la identidad de marca.
 
 🚀 Tecnologías Utilizadas
+
 Frontend
+
 React.js: Biblioteca principal para la interfaz.
 
 Material UI (MUI): Sistema de componentes y estilizado.
@@ -36,6 +43,7 @@ Material UI (MUI): Sistema de componentes y estilizado.
 Axios: Cliente HTTP para la comunicación con la API.
 
 Backend
+
 Django & Django REST Framework: API robusta y escalable.
 
 Pillow: Procesamiento de imágenes para los posters y perfiles.
