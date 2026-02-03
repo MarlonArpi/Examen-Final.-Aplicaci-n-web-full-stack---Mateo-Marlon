@@ -20,6 +20,10 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from catalogo.views import DirectorViewSet, PeliculaViewSet
 
+
+from django.conf import settings
+from django.conf.urls.static import static
+
 def api_root(request):
     return JsonResponse({
         "proyecto": "Cine Brothers API",
@@ -42,3 +46,7 @@ urlpatterns = [
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     path('api/', include(router.urls)),
 ]
+
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

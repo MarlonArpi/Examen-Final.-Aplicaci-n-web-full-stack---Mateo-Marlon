@@ -7,6 +7,9 @@ class DirectorSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class PeliculaSerializer(serializers.ModelSerializer):
+
+    director = DirectorSerializer(read_only=True)
+
     class Meta:
         model = Pelicula
         fields = '__all__'
