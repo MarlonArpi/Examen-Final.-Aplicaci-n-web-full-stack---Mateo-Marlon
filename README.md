@@ -1,7 +1,3 @@
-¡Claro que sí! Un README bien diseñado es la "alfombra roja" de tu proyecto. Para mantener la estética que hemos construido, vamos a estructurarlo de forma profesional, clara y con un toque cinéfilo.
-
-Aquí tienes una propuesta completa que resalta las funcionalidades de Cine Brothers:
-
 🎬 CINE BROTHERS - Catálogo de Directores y Películas
 Cine Brothers es una plataforma administrativa para la gestión de contenido cinematográfico. Permite administrar un catálogo completo de directores y sus filmografías con una interfaz moderna basada en una estética de "Cine Premium" (Dorado, Negro y Neón).
 
