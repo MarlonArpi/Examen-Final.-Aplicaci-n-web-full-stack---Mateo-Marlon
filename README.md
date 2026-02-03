@@ -53,12 +53,12 @@ CORS Headers: Configuración para permitir el flujo de datos entre servidores.
 🛠️ Instalación y Configuración
 1. Clonar el repositorio
 Bash
-git clone https://github.com/tu-usuario/cine-brothers.git
-cd cine-brothers
+git clone https://github.com/MarlonArpi/Examen-Final.-Aplicaci-n-web-full-stack---Mateo-Marlon.git
+cd DESARROLLO DE APLICACIONES WEB
 
 3. Configurar el Backend (Django)
 Bash
-cd backend
+cd proyecto_cine-back
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
@@ -66,7 +66,7 @@ python manage.py runserver
 
 4. Configurar el Frontend (React)
 Bash
-cd frontend
+cd proyecto_cine-front
 npm install
 npm run dev
 
